@@ -1,0 +1,55 @@
+body {
+  display: grid;
+  grid-gap: 1em;
+  grid-template-rows: auto auto 1fr auto;
+  background-color: antiquewhite;
+  min-height: 100vh;
+}
+
+.siyah {
+  background-color: black;
+}
+td {
+  text-align: center;
+  height: 100;
+  width: 100;
+}
+.harfler {
+  vertical-align: bottom;
+}
+.tablolar {
+  text-align: right;
+  vertical-align: middle;
+  text-decoration: cadetblue;
+}
+
+.beyaz {
+  background-color: burlywood;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rebeccapurple;
+  color: white;
+  text-align: center;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding: auto;
+  height: 1%;
+}
+
+#container {
+  align-content: center;
+  transform-origin: centers;
+}
